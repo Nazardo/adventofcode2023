@@ -14,6 +14,8 @@ func main() {
 	switch day {
 	case "1":
 		aoc.Day1("data/day1.txt")
+	case "2":
+		aoc.Day2("data/day2.txt")
 	default:
 		log.Fatal("Day not implemented")
 	}
